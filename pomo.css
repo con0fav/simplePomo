@@ -15,7 +15,7 @@ body{
 #timer{
     color: aqua;
     font-size: 50px;
-    margin:10px auto;
+    margin: 10px auto;
     border: 5px solid red;
     border-radius: 50%;
     width: 200px;
@@ -26,7 +26,32 @@ body{
 }
 
 #time{
-    margin-top:70px;
-    z-index : 1;
-    position:relative;
+    margin-top: 70px;
+    z-index: 1;
+    position: relative;
+  }
+
+  #buttons button { 
+    background: aqua; 
+    border: none; 
+    color: whitesmoke; 
+    cursor: pointer; 
+    padding: 5px; 
+    width: 90px; 
+    margin: 10px auto;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  #buttons button#short{
+    background : #0c0;
+  }
+  
+  #buttons button#long{
+    background : #080;
+  }
+  
+  #buttons button#stop{
+    background : #f00;
   }
