@@ -1,0 +1,32 @@
+body{
+    background-color: #333;
+}
+
+#container{
+    border: 1px solid #333;
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background: #333;
+}
+
+#timer{
+    color: aqua;
+    font-size: 50px;
+    margin:10px auto;
+    border: 5px solid red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+#time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
